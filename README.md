@@ -2,7 +2,7 @@
 
 ## Overview
 
-For this project, our goal is to create a "digital twin" of a given robot so that it can be controlled remotely through a virtual reality (VR) application. At its simplest, this will involved communicating between ROS2 and some VR-capable application.
+For this project, our goal is to create a "digital twin" of a given robot so that it can be controlled remotely through a virtual reality (VR) application. At its simplest, this will involve communicating between ROS2 and some VR-capable application.
 
 Software:
 * NVIDIA Omniverse (OV)
@@ -50,6 +50,7 @@ The iRobot Create3 is an educational robot that can be controlled using either t
     * From the directions above, you can use the robot's webserver page to connect it to a different wifi network
     * If the robot and computer are on the same network, you can find the robot's ip through your method of choice (`ipconfig`, or `arp -a`) and navigate to it. 
     * On the EVL-IoT network, the Create3's IP is `10.0.0.21`.
+    * On the GL.inet mini router, the Create3's IP is `192.168.8.240`.
 
 ## Next Steps
 
